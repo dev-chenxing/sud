@@ -1,7 +1,7 @@
-welcome = 
+from ansi import color_cat
 
-def color_cat(string file):
-    print(color_filter(read_file(file)))
+
+welcome = "welcome"
 
 
 color_cat(welcome)
