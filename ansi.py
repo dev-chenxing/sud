@@ -55,3 +55,7 @@ def color_filter(content: str):
 
 def color_cat(file: str):
     print(color_filter(read_file(file)))
+
+
+def write(value: str):
+    print(color_filter(value), end="")
